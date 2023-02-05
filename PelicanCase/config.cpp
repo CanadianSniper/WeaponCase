@@ -53,7 +53,7 @@ class cfgWeapons
 	class RifleCore;
 	class Rifle_Base : RifleCore
 	{
-		inventorySlot[]=
+		inventorySlot[]+=
 		{
 			"Shoulder1"
 		};
@@ -173,7 +173,7 @@ class cfgMagazines
 	class DefaultMagazine;
 	class Magazine_Base
 	{
-		inventorySlot[] = {
+		inventorySlot[]+= {
 			"cs_magazine1",
 			"cs_magazine2",
 			"cs_magazine3",
