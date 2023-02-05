@@ -173,7 +173,7 @@ class cfgMagazines
 	class DefaultMagazine;
 	class Magazine_Base
 	{
-		inventorySlot[] = {
+		inventorySlot[]+= {
 			"cs_magazine1",
 			"cs_magazine2",
 			"cs_magazine3",
